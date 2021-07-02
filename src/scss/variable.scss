@@ -1,0 +1,5 @@
+$pointColor: #ffe618;
+
+@mixin boxShadow {
+  box-shadow: 0 50px 100px rgba(17, 20, 39, 0.2);
+}
