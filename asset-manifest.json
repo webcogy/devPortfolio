@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/webcogy/frontendPortfolio/static/css/main.ab703418.chunk.css",
+    "main.js": "/webcogy/frontendPortfolio/static/js/main.45bef247.chunk.js",
+    "main.js.map": "/webcogy/frontendPortfolio/static/js/main.45bef247.chunk.js.map",
+    "runtime-main.js": "/webcogy/frontendPortfolio/static/js/runtime-main.06aa4887.js",
+    "runtime-main.js.map": "/webcogy/frontendPortfolio/static/js/runtime-main.06aa4887.js.map",
+    "static/js/2.a994036d.chunk.js": "/webcogy/frontendPortfolio/static/js/2.a994036d.chunk.js",
+    "static/js/2.a994036d.chunk.js.map": "/webcogy/frontendPortfolio/static/js/2.a994036d.chunk.js.map",
+    "static/js/3.c68cbf14.chunk.js": "/webcogy/frontendPortfolio/static/js/3.c68cbf14.chunk.js",
+    "static/js/3.c68cbf14.chunk.js.map": "/webcogy/frontendPortfolio/static/js/3.c68cbf14.chunk.js.map",
+    "index.html": "/webcogy/frontendPortfolio/index.html",
+    "static/css/main.ab703418.chunk.css.map": "/webcogy/frontendPortfolio/static/css/main.ab703418.chunk.css.map",
+    "static/js/2.a994036d.chunk.js.LICENSE.txt": "/webcogy/frontendPortfolio/static/js/2.a994036d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06aa4887.js",
+    "static/js/2.a994036d.chunk.js",
+    "static/css/main.ab703418.chunk.css",
+    "static/js/main.45bef247.chunk.js"
+  ]
+}
