@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/webcogy/frontendPortfolio",
+  "homepage": "http://webcogy.github.io/frontendPortfolio",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -42,6 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.2"
+    "gh-pages": "3.2.3"
   }
 }
