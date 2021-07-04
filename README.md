@@ -1,9 +1,10 @@
 # frontend portfolio
 
+https://webcogy.github.io/frontendPortfolio/
+
 사용기술
 
 - React
-- SASS
+- Sass
 - Redux
-
-
+- firebase

@@ -8,7 +8,7 @@
   padding: 50px 50px 200px;
 }
 
-#page {
+.page {
   @include boxShadow();
 
   background: #fff;
@@ -46,12 +46,12 @@ h3 {
   }
 }
 
-.depth1 {
+.kind1 {
   display: flex;
   justify-content: space-between;
 }
 
-.btn_depth1 {
+.btn_kind1 {
   display: block;
   height: 40px;
   margin: 0 10px;
@@ -79,7 +79,7 @@ h3 {
   }
 }
 
-.depth2 {
+.kind2 {
   padding: 10px;
   background: #f5f6f9;
   border-radius: 20px;
@@ -354,10 +354,10 @@ h3 {
     margin-bottom: 20px;
   }
 
-  .depth1 {
+  .kind1 {
     display: block;
   }
-  .btn_depth1 {
+  .btn_kind1 {
     margin-bottom: 10px;
   }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Contents() {
+function List({ dbList }) {
     return (
         <div className="contents">
             <ul>
@@ -8,7 +8,7 @@ function Contents() {
                     <div className="cpl_wrap">
                         <div className="cpl_info">
                             <div className="cpli_title">
-                                <strong>픽썸 ICO 상장커뮤니티</strong>
+                                <strong>{dbList}</strong>
                                 <span></span>
                             </div>
                             <ul>
@@ -69,4 +69,4 @@ function Contents() {
     );
 }
 
-export default Contents;
+export default List;
