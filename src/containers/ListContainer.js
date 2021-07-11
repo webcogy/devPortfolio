@@ -1,7 +1,7 @@
 import React from 'react';
 import List from '../components/List'
 import { useSelector, useDispatch } from 'react-redux';
-import { getAll } from '../redux/list'
+import { getAll } from '../redux/listReducer'
 // import { increase, decrease, setDiff } from '../redux/list'
 
 function ListContainer() {

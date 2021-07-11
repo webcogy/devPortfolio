@@ -1,6 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import jsonData from "../json/portfolio.json";
+import { useSelector, useDispatch } from 'react-redux';
+import { getAll } from '../redux/listReducer';
 
-function List({ dbList }) {
+function List() {
+
+    const dispatch = useDispatch();
+
+    useSelector(state => {
+        console.log(state)
+    })
+
+    useEffect(() => {
+        dispatch(getAll(jsonData));
+    }, []);
+
+
     return (
         <div className="contents">
             <ul>
@@ -8,17 +23,17 @@ function List({ dbList }) {
                     <div className="cpl_wrap">
                         <div className="cpl_info">
                             <div className="cpli_title">
-                                <strong>{dbList}</strong>
+                                <strong></strong>
                                 <span></span>
                             </div>
                             <ul>
                                 <li>
                                     <strong><mark>CLIENT</mark></strong>
-                                    <span>주식회사 비티씨코리아닷컴</span>
+                                    <span>ttt</span>
                                 </li>
                                 <li>
                                     <strong><mark>WORK</mark></strong>
-                                    <span>php, codeIgniter</span>
+                                    <span>ddd</span>
                                 </li>
                                 <li>
                                     <strong><mark>URL</mark></strong>
