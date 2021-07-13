@@ -1,20 +1,7 @@
-import React, { useEffect } from 'react';
-import jsonData from "../json/portfolio.json";
-import { useSelector, useDispatch } from 'react-redux';
-import { getAll } from '../redux/listReducer';
+import React from 'react';
 
-function List() {
 
-    const dispatch = useDispatch();
-
-    useSelector(state => {
-        console.log(state)
-    })
-
-    useEffect(() => {
-        dispatch(getAll(jsonData));
-    }, []);
-
+function List({ listAll }) {
 
     return (
         <div className="contents">

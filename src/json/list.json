@@ -1,0 +1,29 @@
+[
+  {
+    "idx": 0,
+    "title": "포폴1",
+    "detail": "설명1",
+    "name": "image",
+    "url": "http://www.naver.com",
+    "kind1": "WEB",
+    "kind2": ["react", "redux"]
+  },
+  {
+    "idx": 1,
+    "title": "포폴2",
+    "detail": "설명2",
+    "name": "image",
+    "url": "http://www.naver.com",
+    "kind1": "APP",
+    "kind2": ["reactNative", "redux"]
+  },
+  {
+    "idx": 2,
+    "title": "포폴3",
+    "detail": "설명3",
+    "name": "image",
+    "url": "http://www.naver.com",
+    "kind1": "HYBRID",
+    "kind2": ["sass"]
+  }
+]
