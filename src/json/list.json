@@ -1,29 +1,30 @@
 [
   {
-    "idx": 0,
-    "title": "포폴1",
-    "detail": "설명1",
+    "title": "React web",
     "name": "image",
     "url": "http://www.naver.com",
     "kind1": "WEB",
     "kind2": ["react", "redux"]
   },
   {
-    "idx": 1,
-    "title": "포폴2",
-    "detail": "설명2",
+    "title": "React web22",
+    "name": "image22",
+    "url": "http://www.naver.com22",
+    "kind1": "APP",
+    "kind2": ["reactNative", "redux"]
+  },
+  {
+    "title": "RN app",
     "name": "image",
     "url": "http://www.naver.com",
     "kind1": "APP",
     "kind2": ["reactNative", "redux"]
   },
   {
-    "idx": 2,
-    "title": "포폴3",
-    "detail": "설명3",
+    "title": "react web2",
     "name": "image",
     "url": "http://www.naver.com",
-    "kind1": "HYBRID",
-    "kind2": ["sass"]
+    "kind1": "APP",
+    "kind2": ["react", "sass"]
   }
 ]
