@@ -2,7 +2,6 @@ import React from 'react';
 
 function List({ list }) {
     const reg = /[\"\[\]]/g; // 특수 문자 "[] 3가지 제거
-
     
     return (
         <div className="contents">
@@ -34,7 +33,7 @@ function List({ list }) {
                                 </div>
                                 <div className="cpl_pic">
                                     <div className="cplp_info">
-                                        <a><span className="blind">MORE</span></a>
+                                        <a href={item.url} target="_blank"><span className="blind">MORE</span></a>
                                         <strong>VIEW</strong>
                                     </div>
                                 </div>

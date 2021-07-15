@@ -4,6 +4,10 @@ const listState = {
     list_kind2:[],  // LIST ...ETC skill kinds
     kind1:['ALL', 'WEB', 'APP', 'HYBRID'],
     kind2:['react', 'reactNative', 'redux', 'sass', 'styledComponent'],
+    user_chk_kind2:[],
+    inputRef:[],
+    listCounting:5, // 몇개까지 보여줄지 셋팅, more버튼 누를때마다 5개씩 추가
+    isShowBtnMore:true,
 }
 
 export const states = {

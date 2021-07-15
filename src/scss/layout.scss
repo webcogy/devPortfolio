@@ -31,7 +31,7 @@ h1 {
     bottom: 10px;
     width: 30px;
     height: 1px;
-    background-color: #111427;
+    background-color: $subColor;
   }
 }
 
@@ -39,12 +39,12 @@ h1 {
   .f_copyright {
     left: -65px;
     bottom: 90px;
-    color: #2b2d40;
+    color: $footerColor;
     background-color: transparent;
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
   }
   .f_copyright:after {
-    background-color: #2b2d40;
+    background-color: $footerColor;
   }
 }
