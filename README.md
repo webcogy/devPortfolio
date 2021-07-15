@@ -1,12 +1,16 @@
 # frontend portfolio
 
-https://webcogy.github.io/frontendPortfolio/
+포폴 링크 : https://webcogy.github.io/frontendPortfolio/
+
+---
 
 ### 사용기술
 
 - React
 - Sass
 - Redux
+
+---
 
 ### 폴더구조 및 설명
 
