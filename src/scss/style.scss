@@ -348,6 +348,19 @@ h3 {
   background: lighten($pointColor, 10%);
 }
 
+.goTop {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media all and (max-width: 1280px) {
   .contents .cpl_info .cpli_title strong {
     font-size: 20px;
