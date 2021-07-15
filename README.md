@@ -18,3 +18,9 @@ src/
 ./redux      => actions, reducers, states, types
 ./scss       => variable.scss을 최상위에 등록하고, 하위에서 변수 사용
 ```
+
+### 배포 실행
+
+```
+yarn run deploy
+```
