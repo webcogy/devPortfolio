@@ -33,7 +33,7 @@ function List({ list }) {
                                 </div>
                                 <div className="cpl_pic">
                                     <div className="cplp_info">
-                                        <a href={item.url} target="_blank"><span className="blind">MORE</span></a>
+                                        <a href={item.url} target="_blank"></a>
                                         <strong>VIEW</strong>
                                     </div>
                                 </div>

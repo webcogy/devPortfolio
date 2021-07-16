@@ -8,19 +8,19 @@ function FooterContainer({ pageRef }) {
     // goTop 버튼 클릭시 최상단으로
     const clickGoTop = () =>  window.scrollTo(0, 0);
 
+
+    const fetchObserverGoTop = new IntersectionObserver(
+        ([{ isIntersecting }]) => {
+            isIntersecting === true 
+                ? setIsShowGoTop(false)
+                : setIsShowGoTop(true)
+        }
+    );
+
     // goTop 버튼 show / hide
     useEffect(() => {
         if(pageRef==null) return;
-        
-        const fetchObserver = new IntersectionObserver(
-            ([{ isIntersecting }]) => {
-                isIntersecting === true 
-                    ? setIsShowGoTop(false)
-                    : setIsShowGoTop(true)
-            }
-        );
-
-        fetchObserver.observe(pageRef)
+        fetchObserverGoTop.observe(pageRef)
     }, [pageRef]);
 
 

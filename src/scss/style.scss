@@ -266,7 +266,7 @@ h3 {
         transform: scale(1);
         opacity: 1;
 
-        &:before {
+        /* &:before {
           content: "";
           position: absolute;
           right: 20px;
@@ -276,7 +276,7 @@ h3 {
           background: $pointColor;
           background-repeat: no-repeat;
           background-size: 100% auto;
-        }
+        } */
       }
     }
     &.on {
@@ -372,6 +372,10 @@ h3 {
   .contents .cpl_pic {
     height: 200px;
   }
+  .contents .cpl_info {
+    padding-right: 10px;
+  }
+
   .cp_view .box {
     margin-top: 60px;
   }
