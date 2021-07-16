@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import FooterContainer from './containers/FooterContainer';
 import Kind1Container from './containers/Kind1Container';
 import Kind2Container from './containers/Kind2Container';
@@ -8,13 +8,12 @@ import './scss/style.scss'
 
 function App() {
 
-    // goTop 버튼을 위한 target
-    const [target, setTarget] = useState(null);
+    const fetchGoTopTrigger = useRef(null);
 
     return (
         <div className="App">
             <div className="header">
-                <h1 ref={setTarget}>김대현 포트폴리오</h1>
+                <h1 ref={fetchGoTopTrigger}>김대현 포트폴리오</h1>
             </div>
             <div className="wrapper">
                 <h2>DEVELOPER</h2>
@@ -26,7 +25,7 @@ function App() {
                     <ListContainer />
                 </div>
             </div>
-            <FooterContainer pageRef={target} />
+            <FooterContainer fetchGoTopTrigger={fetchGoTopTrigger} />
         </div>
     )
 }

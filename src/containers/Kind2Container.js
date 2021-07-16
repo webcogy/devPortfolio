@@ -66,7 +66,7 @@ function Kind2Container() {
             
             onUserChkKind2(userchk_skill);
             onGetListKind2(listResult);
-            console.log("🚀 ~ file: kind2Container.js ~ line 69 ~ kind2Calculator ~ listResult", listResult)
+            // console.log("🚀 ~ file: kind2Container.js ~ line 69 ~ kind2Calculator ~ listResult", listResult)
         }catch(error){
             console.log(error)
         }

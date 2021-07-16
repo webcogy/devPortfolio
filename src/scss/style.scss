@@ -340,6 +340,11 @@ h3 {
   font-weight: bold;
   font-size: 14px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: none;
+
+  &.on {
+    display: block;
+  }
 }
 
 .btn_more:hover {
@@ -359,6 +364,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 @media all and (max-width: 1280px) {

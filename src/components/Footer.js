@@ -11,9 +11,9 @@ function Footer({clickGoTop, isShowGoTop}) {
             </div>
 
             {isShowGoTop === true &&
-                <a href="javascript:;" className="goTop" onClick={clickGoTop}>
+                <button className="goTop" onClick={clickGoTop}>
                     <VerticalAlignTopIcon />
-                </a>
+                </button>
             }
             
         </div>
