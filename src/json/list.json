@@ -1,20 +1,56 @@
 [
   {
+    "title": "로타리클럽",
+    "image": "rotary.jpg",
+    "git": "private",
+    "viewUrl": "",
+    "work": "완성된 웹을 앱으로 감싸는 작업만 함",
+    "kind1": "HYBRID",
+    "kind2": ["webview"]
+  },
+  {
+    "title": "실시간 채팅 (실무 R&D)",
+    "image": "chat.jpg",
+    "git": "private",
+    "viewUrl": "",
+    "work": "VIEW단 작업 100%",
+    "kind1": "APP",
+    "kind2": ["react", "contextAPI", "sass", "websocket"]
+  },
+  {
+    "title": "e코앤코 (유치원 관리, 실무 프로젝트)",
+    "image": "conko.jpg",
+    "git": "private",
+    "viewUrl": "",
+    "work": "80%",
+    "kind1": "APP",
+    "kind2": ["reactNative", "styledComponent"]
+  },
+  {
+    "title": "영화소개",
+    "image": "todolist.jpg",
+    "git": "https://github.com/webcogy/React_MovieApp",
+    "viewUrl": "https://webcogy.github.io/react_todoList/",
+    "work": "100% (인강 참고)",
+    "kind1": "WEB",
+    "kind2": ["react", "api"]
+  },
+  {
     "title": "할일목록",
     "image": "todolist.jpg",
     "git": "https://github.com/webcogy/react_todoList",
     "viewUrl": "https://webcogy.github.io/react_todoList/",
-    "work": "100%",
+    "work": "100% (인강 참고)",
     "kind1": "WEB",
     "kind2": ["react"]
   },
   {
     "title": "세계날씨",
-    "image": "todolist.jpg",
+    "image": "weather.jpg",
     "git": "https://github.com/webcogy/ReactNative_weatherApp",
-    "viewUrl": "https://webcogy.github.io/react_todoList/",
-    "work": "100%",
-    "kind1": "WEB",
+    "viewUrl": "",
+    "work": "100% (인강 참고)",
+    "kind1": "APP",
     "kind2": ["reactNative", "api", "expo"]
   }
 ]

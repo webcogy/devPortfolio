@@ -6,7 +6,7 @@
   }
 
   & h2 {
-    color: #333;
+    color: #222;
   }
 
   & h3 {
@@ -38,8 +38,7 @@
   }
 
   & .kind2 li label span {
-    border: 1px solid #555;
-    background: #000;
+    background: $subColor;
     color: #fff;
   }
 
