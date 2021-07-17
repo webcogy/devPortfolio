@@ -1,100 +1,20 @@
 [
   {
-    "title": "React web",
-    "name": "image",
-    "url": "http://www.naver.com",
+    "title": "할일목록",
+    "image": "todolist.jpg",
+    "git": "https://github.com/webcogy/react_todoList",
+    "viewUrl": "https://webcogy.github.io/react_todoList/",
+    "work": "100%",
     "kind1": "WEB",
-    "kind2": ["react", "redux"]
+    "kind2": ["react"]
   },
   {
-    "title": "React web22",
-    "name": "image22",
-    "url": "http://www.naver.com22",
-    "kind1": "APP",
-    "kind2": ["reactNative", "redux"]
-  },
-  {
-    "title": "RN app",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "APP",
-    "kind2": ["reactNative", "redux"]
-  },
-  {
-    "title": "react web2",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "APP",
-    "kind2": ["reactNative", "sass"]
-  },
-  {
-    "title": "React web",
-    "name": "image",
-    "url": "http://www.naver.com",
+    "title": "세계날씨",
+    "image": "todolist.jpg",
+    "git": "https://github.com/webcogy/ReactNative_weatherApp",
+    "viewUrl": "https://webcogy.github.io/react_todoList/",
+    "work": "100%",
     "kind1": "WEB",
-    "kind2": ["react", "redux"]
-  },
-  {
-    "title": "React web22",
-    "name": "image22",
-    "url": "http://www.naver.com22",
-    "kind1": "APP",
-    "kind2": ["reactNative", "redux"]
-  },
-  {
-    "title": "RN app",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "APP",
-    "kind2": ["reactNative", "redux"]
-  },
-  {
-    "title": "react web2",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "APP",
-    "kind2": ["reactNative", "sass"]
-  },
-  {
-    "title": "React web",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "WEB",
-    "kind2": ["react", "redux"]
-  },
-  {
-    "title": "React web22",
-    "name": "image22",
-    "url": "http://www.naver.com22",
-    "kind1": "APP",
-    "kind2": ["reactNative", "redux"]
-  },
-  {
-    "title": "RN app",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "APP",
-    "kind2": ["reactNative", "redux"]
-  },
-  {
-    "title": "react web2",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "APP",
-    "kind2": ["reactNative", "sass"]
-  },
-  {
-    "title": "react web222222",
-    "name": "image",
-    "url": "http://www.naver.com",
-    "kind1": "APP",
-    "kind2": ["reactNative", "sass"]
-  },
-  {
-    "title": "react web222222222222222",
-    "name": "image",
-    "url": "http://www.naver.com12",
-    "kind1": "APP",
-    "kind2": ["reactNative", "sass"]
+    "kind2": ["reactNative", "api", "expo"]
   }
 ]

@@ -286,6 +286,11 @@ h3 {
       transform: scale(1);
     }
 
+    & .view_img {
+      width: 100%;
+      height: 100%;
+    }
+
     & .cplp_info {
       display: inline-block;
       vertical-align: middle;

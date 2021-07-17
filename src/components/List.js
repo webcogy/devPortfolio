@@ -26,14 +26,20 @@ function List({ list }) {
                                             </span>
                                         </li>
                                         <li>
-                                            <strong><mark>URL</mark></strong>
-                                            <span><a href={item.url} target="_blank">{item.url}</a></span>
+                                            <strong><mark>WORK</mark></strong>
+                                            <span>100%</span>
+                                        </li>
+                                        <li>
+                                            <strong><mark>GIT</mark></strong>
+                                            <span><a href={item.git} target="_blank">{item.git}</a></span>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="cpl_pic">
+                                    <img src={`../frontendPortfolio/images/${item.image}`} className="view_img" />
                                     <div className="cplp_info">
-                                        <a href={item.url} target="_blank"></a>
+                                        <a href={item.viewUrl} target="_blank">
+                                        </a>
                                         <strong>VIEW</strong>
                                     </div>
                                 </div>
