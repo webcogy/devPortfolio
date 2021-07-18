@@ -64,6 +64,7 @@ function ListContainer() {
 
     return (
         <>
+            <h4>총 개수 : {list_kind2.length}</h4>
             <List
                 list={list_kind2.slice(0, listCounting)}
             />
