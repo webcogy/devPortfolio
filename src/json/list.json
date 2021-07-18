@@ -1,12 +1,12 @@
 [
   {
-    "title": "로타리클럽",
-    "image": "rotary.jpg",
-    "git": "private",
-    "viewUrl": "",
-    "work": "완성된 웹을 앱으로 감싸는 작업만 함",
-    "kind1": "HYBRID",
-    "kind2": ["webview"]
+    "title": "프론트엔드 포트폴리오",
+    "image": "",
+    "git": "https://github.com/webcogy/frontendPortfolio",
+    "viewUrl": "https://webcogy.github.io/frontendPortfolio/",
+    "work": "100%",
+    "kind1": "WEB",
+    "kind2": ["react", "redux", "sass"]
   },
   {
     "title": "실시간 채팅 (실무 R&D)",
@@ -14,8 +14,17 @@
     "git": "private",
     "viewUrl": "",
     "work": "VIEW단 작업 100%",
-    "kind1": "APP",
+    "kind1": "WEB",
     "kind2": ["react", "contextAPI", "sass", "websocket"]
+  },
+  {
+    "title": "로타리클럽",
+    "image": "rotary.jpg",
+    "git": "private",
+    "viewUrl": "",
+    "work": "완성된 웹을 앱으로 감싸는 작업만 함",
+    "kind1": "HYBRID",
+    "kind2": ["webview"]
   },
   {
     "title": "e코앤코 (유치원 관리, 실무 프로젝트)",
@@ -28,21 +37,12 @@
   },
   {
     "title": "영화소개",
-    "image": "todolist.jpg",
+    "image": "movie.png",
     "git": "https://github.com/webcogy/React_MovieApp",
-    "viewUrl": "https://webcogy.github.io/react_todoList/",
+    "viewUrl": "",
     "work": "100% (인강 참고)",
     "kind1": "WEB",
     "kind2": ["react", "api"]
-  },
-  {
-    "title": "할일목록",
-    "image": "todolist.jpg",
-    "git": "https://github.com/webcogy/react_todoList",
-    "viewUrl": "https://webcogy.github.io/react_todoList/",
-    "work": "100% (인강 참고)",
-    "kind1": "WEB",
-    "kind2": ["react"]
   },
   {
     "title": "세계날씨",
@@ -52,5 +52,14 @@
     "work": "100% (인강 참고)",
     "kind1": "APP",
     "kind2": ["reactNative", "api", "expo"]
+  },
+  {
+    "title": "할일목록",
+    "image": "todolist.jpg",
+    "git": "https://github.com/webcogy/react_todoList",
+    "viewUrl": "https://webcogy.github.io/react_todoList/",
+    "work": "100% (인강 참고)",
+    "kind1": "WEB",
+    "kind2": ["react"]
   }
 ]

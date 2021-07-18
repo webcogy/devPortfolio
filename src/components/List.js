@@ -37,10 +37,26 @@ function List({ list }) {
                                                     : <span><a href={item.git} target="_blank">{item.git}</a></span>
                                             }
                                         </li>
+                                        {
+                                            item.viewUrl !== "" &&
+                                            <li>
+                                                <strong><mark>VIEW</mark></strong>
+                                                <span><a href={item.viewUrl} className="btn_view" target="_blank">{item.viewUrl}</a></span>
+                                            </li>
+                                        }
                                     </ul>
                                 </div>
-                                <div className="cpl_pic">
-                                    <img src={`../frontendPortfolio/images/${item.image}`} className="view_img" />
+                                <div className={
+                                    item.viewUrl !== ""
+                                    ? "cpl_pic view"
+                                    : "cpl_pic" 
+                                }>
+                                    {
+                                        item.image === ""
+                                        ? <img src={`../frontendPortfolio/images/portfolio.jpg`} className="view_img" />
+                                        : <img src={`../frontendPortfolio/images/${item.image}`} className="view_img" />
+                                    }
+                                    
                                     <div className="cplp_info">
                                         {
                                             item.viewUrl !== "" &&
