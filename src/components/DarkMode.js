@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import Brightness2Icon from '@material-ui/icons/Brightness2';
 
-function DarkModeComponent({ appRef }) {
+function DarkMode({ appRef }) {
     const [isDark, setIsDark] = useState(false);
     
 
@@ -41,4 +41,4 @@ function DarkModeComponent({ appRef }) {
     );
 }
 
-export default DarkModeComponent;
+export default DarkMode;
