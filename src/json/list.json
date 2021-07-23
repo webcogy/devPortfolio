@@ -61,5 +61,14 @@
     "work": "100% (인강 참고)",
     "kind1": "WEB",
     "kind2": ["react"]
+  },
+  {
+    "title": "동자승 렌터카",
+    "image": "djs.png",
+    "git": "https://github.com/DaeguIT-MinSuKim/yi_java4st_2team_web",
+    "viewUrl": "http://dhweb.i234.me/portfolio/dev/djs/main/main.php",
+    "work": "자바학원 프로젝트, 총인원5명, 참여도 30%",
+    "kind1": "WEB",
+    "kind2": ["jsp", "oracle", "sql"]
   }
 ]
