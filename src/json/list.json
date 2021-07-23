@@ -1,9 +1,9 @@
 [
   {
-    "title": "프론트엔드 포트폴리오",
+    "title": "개발 포트폴리오",
     "image": "",
-    "git": "https://github.com/webcogy/frontendPortfolio",
-    "viewUrl": "https://webcogy.github.io/frontendPortfolio/",
+    "git": "https://github.com/webcogy/devPortfolio",
+    "viewUrl": "https://webcogy.github.io/devPortfolio/",
     "work": "100%",
     "kind1": "WEB",
     "kind2": ["react", "redux", "sass"]
