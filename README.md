@@ -1,6 +1,6 @@
-# frontend portfolio
+# developer portfolio
 
-포폴 링크 : https://webcogy.github.io/frontendPortfolio/
+포폴 링크 : https://webcogy.github.io/devPortfolio/
 
 ---
 
