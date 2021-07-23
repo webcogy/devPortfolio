@@ -1,6 +1,6 @@
 {
-  "homepage": "http://webcogy.github.io/frontendPortfolio",
-  "name": "frontend",
+  "homepage": "http://webcogy.github.io/devPortfolio",
+  "name": "devPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
