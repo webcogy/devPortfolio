@@ -53,8 +53,8 @@ function List({ list }) {
                                 }>
                                     {
                                         item.image === ""
-                                        ? <img src={`../frontendPortfolio/images/portfolio.jpg`} className="view_img" />
-                                        : <img src={`../frontendPortfolio/images/${item.image}`} className="view_img" />
+                                        ? <img src={`../devPortfolio/images/portfolio.jpg`} className="view_img" />
+                                        : <img src={`../devPortfolio/images/${item.image}`} className="view_img" />
                                     }
                                     
                                     <div className="cplp_info">
