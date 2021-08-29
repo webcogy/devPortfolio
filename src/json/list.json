@@ -1,5 +1,23 @@
 [
   {
+    "title": "VUE DONGSAN",
+    "image": "vuedongsan.jpg",
+    "git": "https://github.com/webcogy/vuedongsan",
+    "viewUrl": "https://webcogy.github.io/vuedongsan/",
+    "work": "100%",
+    "kind1": "WEB",
+    "kind2": ["vue"]
+  },
+  {
+    "title": "MAKE THE BEAUTY",
+    "image": "makethebeauty.jpg",
+    "git": "https://github.com/webcogy/makeTheBeauty",
+    "viewUrl": "",
+    "work": "100%",
+    "kind1": "WEB",
+    "kind2": ["react", "graphql", "apollo", "cssModule"]
+  },
+  {
     "title": "개발 포트폴리오",
     "image": "",
     "git": "https://github.com/webcogy/devPortfolio",
@@ -9,11 +27,11 @@
     "kind2": ["react", "redux", "sass"]
   },
   {
-    "title": "실시간 채팅 (실무 R&D)",
+    "title": "실시간 채팅",
     "image": "chat.jpg",
     "git": "private",
     "viewUrl": "",
-    "work": "VIEW단 작업 100%",
+    "work": "실무) 프론트단 작업 100%",
     "kind1": "WEB",
     "kind2": ["react", "contextAPI", "sass", "websocket"]
   },
@@ -22,16 +40,16 @@
     "image": "rotary.jpg",
     "git": "private",
     "viewUrl": "",
-    "work": "완성된 웹을 앱으로 감싸는 작업만 함",
+    "work": "실무) 완성된 웹을 앱으로 감싸는 작업만 함",
     "kind1": "HYBRID",
     "kind2": ["webview"]
   },
   {
-    "title": "e코앤코 (유치원 관리, 실무 프로젝트)",
+    "title": "e코앤코",
     "image": "conko.jpg",
     "git": "private",
     "viewUrl": "",
-    "work": "80%",
+    "work": "실무) 80%",
     "kind1": "APP",
     "kind2": ["reactNative", "styledComponent"]
   },
@@ -40,7 +58,7 @@
     "image": "movie.png",
     "git": "https://github.com/webcogy/React_MovieApp",
     "viewUrl": "",
-    "work": "100% (인강 참고)",
+    "work": "100%",
     "kind1": "WEB",
     "kind2": ["react", "api"]
   },
@@ -49,7 +67,7 @@
     "image": "weather.jpg",
     "git": "https://github.com/webcogy/ReactNative_weatherApp",
     "viewUrl": "",
-    "work": "100% (인강 참고)",
+    "work": "100%",
     "kind1": "APP",
     "kind2": ["reactNative", "api", "expo"]
   },
@@ -58,7 +76,7 @@
     "image": "todolist.jpg",
     "git": "https://github.com/webcogy/react_todoList",
     "viewUrl": "https://webcogy.github.io/react_todoList/",
-    "work": "100% (인강 참고)",
+    "work": "100%",
     "kind1": "WEB",
     "kind2": ["react"]
   },
@@ -67,7 +85,7 @@
     "image": "djs.png",
     "git": "https://github.com/DaeguIT-MinSuKim/yi_java4st_2team_web",
     "viewUrl": "http://dhweb.i234.me/portfolio/dev/djs/main/main.php",
-    "work": "자바학원 프로젝트, 총인원5명, 참여도 30%",
+    "work": "자바학원 프로젝트, 총인원5명, 참여도 30% (프론트단 작업)",
     "kind1": "WEB",
     "kind2": ["jsp", "oracle", "sql"]
   }
