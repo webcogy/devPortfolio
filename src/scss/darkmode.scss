@@ -91,27 +91,50 @@
   position: fixed;
   right: 10px;
   top: 10px;
-  width: 50px;
+  width: 70px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background: none;
+  color: gray;
+
+  & > span {
+    font-size: 17px;
+    font-family: roboto;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  & .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+
+    & .light {
+      color: #ffbb18;
+    }
+    & .dark {
+      color: #f82757;
+    }
+  }
 
   & button {
     background: none;
   }
 
   & svg {
-    font-size: 40px;
-    width: 100%;
+    font-size: 30px;
+    width: 30px;
   }
 
-  & .btn_light {
+  &.light {
     color: #ffbb18;
   }
 
-  & .btn_dark {
+  &.dark {
     color: #f82757;
   }
 }
